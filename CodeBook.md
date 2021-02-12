@@ -67,8 +67,7 @@ Description on how to create the tidy data file
 
 It is important to remove special characters from the column headings to
 make working with the data easier. You must also update the column
-headings because there are duplicate column names. [link to the readme
-document that describes the code in greater detail]()
+headings because there are duplicate column names. Link to the README file: https://github.com/Petersenk/Getting-and-Cleaning-Data-Course-Project/blob/main/README.md
 
 Description of the variables in the tiny\_data.txt file
 -------------------------------------------------------
