@@ -61,7 +61,7 @@ Description on how to create the tidy data file
 -   Calculate the average of all the columns of the new subset dataframe
     grouping by the subjectID and activity description and assigne to an
     aggregate data frame
--   Write out aggregated data to a csv file.
+-   Write out aggregated data to a txt file.
 
 ### Cleaning of the data
 
