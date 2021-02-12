@@ -104,11 +104,9 @@ Assignment Description
 
               meanDataset <- aggregate(.~ subjectid + desc, data = meanDataset, mean)
               nrow(meanDataset) #There should be 30 subjects by 6 activities or 180 rows.  
-              write.csv(meanDataset, "tidydataset.csv")
-
+              write.table(meanDataset, "tidydataset.txt", row.names = FALSE)
 #### test reading the tidydataset
-
-              test <- read.csv("tidydataset.csv")          
-              nrow(test)
-              ncol(test)
-              class(test)
+          tidydataset <- read.csv("~/Coursera - Data Science/Getting and Cleaning Data/Course Project/UCI HAR Dataset/tidydataset.txt", sep="")
+          nrow(tidydataset)
+          ncol(tidydataset)
+          class(tidydataset)      
